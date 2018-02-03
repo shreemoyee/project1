@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.shreemoyee.myspy.fire">
-    <ScrollView
+    <!--<ScrollView
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content">
+        android:layout_width="match_parent">-->
    <LinearLayout
        android:orientation="vertical"
-       android:layout_height="wrap_content"
+       android:layout_height="match_parent"
        android:layout_width="wrap_content">
     <ImageView
         android:id="@+id/imageView1"
         android:visibility="visible"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:src="@drawable/groundfloor" />
-    <LinearLayout
+    <!--<LinearLayout
         android:orientation="vertical"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content">
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="SOS" />
-</LinearLayout>>
+</LinearLayout>-->
     </LinearLayout>>
-    </ScrollView>>
+    <!--</ScrollView>-->
 </android.support.constraint.ConstraintLayout>
